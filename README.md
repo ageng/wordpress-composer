@@ -4,8 +4,8 @@ This repository containing about how to install wordpress with Composer.
 
 ## Dependencies
 
-* [Composer](http://getcomposer.org/downloads)
-* [PHP 5+](http:///)
+* [Composer](https://getcomposer.org/download/)
+* [PHP 5 +](http://php.net/)
 * [Wordpress](http://wordpress.org/)
 
 ## License
