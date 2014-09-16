@@ -2,6 +2,11 @@
 
 This repository containing about how to install wordpress with Composer.
 
+## QA
+
+1. You need change some configuration in wp-config.php
+2. Also after install , you can change your base url in dashboard setting
+
 ## Dependencies
 
 * [Composer](https://getcomposer.org/download/)
