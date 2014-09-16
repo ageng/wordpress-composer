@@ -1,5 +1,7 @@
 ## Install Wordpress With Composer
 
+This repository containing about how to install wordpress with Composer.
+
 ## Dependencies
 
 * [Composer](http://getcomposer.org/downloads)
