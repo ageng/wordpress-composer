@@ -9,10 +9,10 @@
       "package": {
         "name": "wordpress/wordpress",
         "type": "webroot",
-        "version": "4.0",
+        "version": "4.1",
         "dist": {
           "type": "zip",
-          "url": "https://github.com/WordPress/WordPress/archive/4.0.zip"
+          "url": "https://github.com/WordPress/WordPress/archive/4.1.zip"
         },
         "require": {
           "fancyguy/webroot-installer": "1.1.0"
@@ -21,12 +21,12 @@
     }
   ],
   "require": {
-    "wordpress/wordpress": "4.0",
+    "wordpress/wordpress": "4.1",
     "fancyguy/webroot-installer": "1.1.0",
-    "wpackagist-plugin/wordpress-seo": "1.6",
-    "wpackagist-plugin/google-analytics-for-wordpress": "5.0.5",
-    "wpackagist-plugin/google-sitemap-generator": "4.0.7.1",
-    "wpackagist-theme/twentyfourteen": "*"
+    "wpackagist-plugin/wordpress-seo": "*",
+    "wpackagist-plugin/google-analytics-for-wordpress": "*",
+    "wpackagist-plugin/google-sitemap-generator": "*",
+    "wpackagist-theme/twentyfifteen": "*"
   },
   "extra": {
     "installer-paths": {
