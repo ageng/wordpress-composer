@@ -64,9 +64,9 @@ define('WP_CONTENT_DIR', dirname( __FILE__ ) . '/app');
 define('WP_CONTENT_URL', 'http://' . $_SERVER['HTTP_HOST'] . '/app');
 
 /** Custom FTP account **/
-define('FTP_USER', 'ftp_user_here'); // Your FTP username
-define('FTP_PASS', 'ftp_password_here'); // Your FTP password
-define('FTP_HOST', 'ftp_host_here'); // Your FTP URL:Your FTP port
+// define('FTP_USER', 'ftp_user_here'); // Your FTP username
+// define('FTP_PASS', 'ftp_password_here'); // Your FTP password
+// define('FTP_HOST', 'ftp_host_here'); // Your FTP URL:Your FTP port
 
 /**#@+
  * Authentication Unique Keys and Salts.
@@ -77,14 +77,14 @@ define('FTP_HOST', 'ftp_host_here'); // Your FTP URL:Your FTP port
  *
  * @since 2.6.0
  */
-define('AUTH_KEY',         '- e6UMrTXGUL3/pTYB#zQ<-H|1d6-CPeBxY(_WD/VJO=w@c#4H1s4w|<R_l:AV`b');
-define('SECURE_AUTH_KEY',  '#*AZ#Vn|lljbb-U VcPpPhgudh>}uRu8v2jNG*.x7dfe&wa12acT-x3%TX3|k`~9');
-define('LOGGED_IN_KEY',    '+2)(N9v17KjBKQ*)f4(D<r+{J<u#+a5UHQW(`8o6?E?K5U[G.,.qr2<j+65a}{LK');
-define('NONCE_KEY',        '|ZPkcciK`R/qFr[4+FQHUM>j%?J~c#S;li.LsOw|%u+g^^AfhG`t!<D/:3%{sN1`');
-define('AUTH_SALT',        'yQsoZ#}PD8zsEp%.|OAD!s9#&loM(vMb6b$Je$Py~lHE, mQHV_ix0C[71~e3<$W');
-define('SECURE_AUTH_SALT', '8!m<u96JCn-C#N|hM(tO+b=Kk|t`OY11rL}UAT*[|A_B|,EACW9(_7AmVjdiD)3$');
-define('LOGGED_IN_SALT',   '.DK?t.hLt*#&sG-Q@}Z5~g0@7sq+QNt>g7l,kk&0zBlC.Y>fmlOIV46JWFMt}@5{');
-define('NONCE_SALT',       ']DVcOeBB,)^|;lb594zN9)&q{Bbc.0P@((i;;#{R|TjP3jAI,xQ(9I.9.N]@ec;Q');
+	define('AUTH_KEY',         '5RbrxO4Vu|/^*?awo8A/cu?AEDuNM|wH7aSpNaqmAcT]JFEe=sn2*!k-R#O9.sAl');
+	define('SECURE_AUTH_KEY',  '30`;D3S|lZMKBpL+k!T!|nYlSV^r.OiC|4xdTI;H=*Be@-[qXGkf>12mDp;/zeF*');
+	define('LOGGED_IN_KEY',    's)#t|3gnCyZ-4t!]GY-4P;_Ixb-C.i%n++,p;GBl~3uJQKR@*.BLFpn0Rs0#0y.5');
+	define('NONCE_KEY',        'FypLbMm*@(3+ n{&A@wM>{:V2[yT<[-)L%W- zvp(&V}tHG?hFpyp|&u#H,P*;c ');
+	define('AUTH_SALT',        ',#{[KP/2XdqZ;a.2`:k}[&( q>l;hkf($+tUULOQ9v~pET]E9#iA&`P:d)|k:pmn');
+	define('SECURE_AUTH_SALT', 'i$>Vc[K/StfIt9,+JZO>D}Z1* .R%;I2Zw@0w+,e=<*gNW(dH)NxW159Pc{m2T[1');
+	define('LOGGED_IN_SALT',   'RK.ms|f>LG.d+QdY}BUVy4!hx6`!d/LJ#R{BMetvj![uyGj4c#m(0a@_hg)j1G`J');
+	define('NONCE_SALT',       'IE*Ju|BS|p!%t.!UhLDpM*0Tn8{,g{y!c6+z2qkP}%+s;BlAVB-t|B+J%U#s__g0');
 /**#@-*/
 
 /**
@@ -118,7 +118,7 @@ define('WP_DEBUG', false);
 
 /** Absolute path to the WordPress directory. */
 if ( !defined('ABSPATH') )
-	define('ABSPATH', dirname(__FILE__) . '/wp/');
+	define('ABSPATH', dirname(__FILE__) . '/data/');
 
 /** Sets up WordPress vars and included files. */
 require_once(ABSPATH . 'wp-settings.php');

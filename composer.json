@@ -9,31 +9,31 @@
       "package": {
         "name": "wordpress/wordpress",
         "type": "webroot",
-        "version": "4.1",
+        "version": "4.4.2",
         "dist": {
           "type": "zip",
-          "url": "https://github.com/WordPress/WordPress/archive/4.1.zip"
+          "url": "https://github.com/WordPress/WordPress/archive/4.4.2.zip"
         },
         "require": {
-          "fancyguy/webroot-installer": "1.1.0"
+          "fancyguy/webroot-installer": "*"
         }
       }
     }
   ],
   "require": {
-    "wordpress/wordpress": "4.1",
-    "fancyguy/webroot-installer": "1.1.0",
+    "wordpress/wordpress": "4.4.2",
+    "fancyguy/webroot-installer": "*",
     "wpackagist-plugin/wordpress-seo": "*",
     "wpackagist-plugin/google-analytics-for-wordpress": "*",
     "wpackagist-plugin/google-sitemap-generator": "*",
-    "wpackagist-theme/twentyfifteen": "*"
+    "wpackagist-theme/twentysixteen": "*"
   },
   "extra": {
     "installer-paths": {
       "app/themes/{$name}": ["type:wordpress-theme"],
       "app/plugins/{$name}": ["type:wordpress-plugin"]
     },
-    "webroot-dir": "wp",
+    "webroot-dir": "data",
     "webroot-package": "wordpress/wordpress"
   }
 }
